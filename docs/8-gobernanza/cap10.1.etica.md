@@ -2,7 +2,7 @@
 id: etica
 title: "Ética"
 sidebar_label: "💻 Ética"
-sidebar_position: 1
+sidebar_position: 10
 description: "Aplicación y uso ético de la IA"
 slug: /etica
 ---

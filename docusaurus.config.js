@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Inteligencia Artificial para la Gestión Pública',
-  tagline: 'Análisis de Datos, Estrategia, Gobernanza y Automatización',
+  tagline: 'Análisis de Datos, Estrategia y Gobernanza, Automatización',
   favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
@@ -82,7 +82,7 @@ const config = {
       navbar: {
         title: 'Inteligencia Artificial',
         logo: {
-          alt: 'Inteligencia Artificial para la Gestión Pública Logo',
+          alt: 'Inteligencia Artificial',
           src: 'img/ODC-isotipo.svg',
         },
         items: [

@@ -31,11 +31,9 @@ Este manual aborda los aspectos básicos para la comprensión de estas tecnolog�
 
 **Módulo 3. Ciencia de datos y analítica para la gestión pública**: En este módulo se abordan los conceptos fundamentales de la ciencia de datos, incluyendo la recopilación, limpieza y análisis de datos, así como la visualización y comunicación de resultados.
 
-**Módulo 4. Estadística**: Este es un módulo opcional.
+**Módulo 4. Ingeniería de Prompts**: Clave para alcanzar los objetivos en la interacción con las IAs generativas y agénticas.
 
-**Módulo 5. Ingeniería de Prompts**: Clave para alcanzar los objetivos en la interacción con las IAs generativas y agénticas.
-
-**Módulo 6. Análisis de datos por IA**: Aprenderá a usar la AI generativa y/o agentica como asistentes a su trabajo. Generando ahorros de tiempo y mejoras en eficiencia.
+**Módulo 5. Análisis de datos por IA**: Aprenderá a usar la AI generativa y/o agentica como asistentes a su trabajo. Generando ahorros de tiempo y mejoras en eficiencia.
 
 
 
