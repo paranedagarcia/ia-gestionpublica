@@ -1,6 +1,6 @@
 ---
 id: autor
-title:  Autor
+title:  "🎓 Autor"
 sidebar_label: "🎓 Autor"
 sidebar_position: 15
 ---

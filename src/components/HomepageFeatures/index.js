@@ -1,11 +1,18 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+const SUPPORTED_IMAGE_EXTENSIONS = ['png', 'jpg', 'webp', 'svg','gif'];
+
+function hasSupportedImageFormat(imagePath) {
+  const extension = imagePath.split('.').pop()?.toLowerCase();
+  return SUPPORTED_IMAGE_EXTENSIONS.includes(extension);
+}
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Fundamentos',
+    image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -14,8 +21,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Automatizaciones',
+    image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,8 +31,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Gobernanza',
+    image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,11 +42,17 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
+  if (!hasSupportedImageFormat(image)) {
+    return null;
+  }
+
+  const imageUrl = useBaseUrl(image);
+
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={imageUrl} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

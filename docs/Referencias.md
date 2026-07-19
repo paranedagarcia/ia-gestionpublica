@@ -1,7 +1,7 @@
 ---
 id: referencias
-title: "Referencias"
-sidebar_label: "💻 Referencias"
+title: "📚 Referencias"
+sidebar_label: "📚 Referencias"
 sidebar_position: 12
 description: "Referencias"
 slug: /referencias

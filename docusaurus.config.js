@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import {links as footerLinks} from './footer_links.js';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -102,54 +103,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Manual',
-                to: '/docs/intro',
-              },
-              {
-                label: 'DOI',
-                href: 'https://orcid.org/0000-0001-9677-5959',
-              }
-            ],
-          },
-          {
-            title: 'Conecta',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://patricioaraneda.cl',
-              },
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/patricioaraneda',
-              },
-              {
-                label: 'Whatsapp',
-                href: 'https://wa.me/56978872845',
-              },
-              
-            ],
-          },
-          {
-            title: 'Más',
-            items: [
-             
-              {
-                label: 'GitHub',
-                href: 'https://github.com/paranedagarcia/ia-gestionpublica',
-              },
-              {
-                label: 'Correo',
-                href: 'mailto:paraneda@ug.uchile.cl',
-              }
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Inc. Built with Docusaurus.`,
+        links: footerLinks,
+        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Built with Docusaurus. <br /><img src="img/cc-by-nc-sa.png" alt="CC-BY-SA 4.0" width="120" />`,
       },
       prism: {
         theme: prismThemes.github,
