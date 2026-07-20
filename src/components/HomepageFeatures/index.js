@@ -12,31 +12,28 @@ function hasSupportedImageFormat(imagePath) {
 const FeatureList = [
   {
     title: 'Fundamentos',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    image: '/img/ia-gob6.webp',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Conozca los conceptos básicos de la Inteligencia Artificial y cómo aplicarlos en el ámbito gubernamental.
       </>
     ),
   },
   {
     title: 'Automatizaciones',
-    image: '/img/undraw_docusaurus_tree.svg',
+    image: '/img/ia-gob2.webp',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Aplique las herramientas de IA para la gestión de tareas y funciones administrativas.
       </>
     ),
   },
   {
     title: 'Gobernanza',
-    image: '/img/undraw_docusaurus_react.svg',
+    image: '/img/ia-gob.webp',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Aprenda las mejores prácticas para la gobernanza de la Inteligencia Artificial en el sector público.
       </>
     ),
   },

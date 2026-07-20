@@ -22,6 +22,10 @@ const config = {
       // Downgrade to warnings so your staging preview or local build won't fail
       onBrokenMarkdownImages: 'warn', 
     },
+    remarkRehypeOptions: {
+      footnoteLabel: 'Notas al pie',
+      footnoteBackLabel: 'Volver a referencia',
+    },
   },
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -56,8 +60,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           
         },
         
@@ -93,7 +95,7 @@ const config = {
             position: 'left',
             label: 'Manual',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
+          
           {
             href: 'https://github.com/paranedagarcia/ia-gestionpublica',
             label: 'GitHub',
@@ -104,7 +106,7 @@ const config = {
       footer: {
         style: 'dark',
         links: footerLinks,
-        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Built with Docusaurus. <br /><img src="img/cc-by-nc-sa.png" alt="CC-BY-SA 4.0" width="120" />`,
+        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Built with <a href="https://docusaurus.io/">Docusaurus</a>. <br /><img src="img/cc-by-nc-sa.png" alt="CC-BY-SA 4.0" width="120" />`,
       },
       prism: {
         theme: prismThemes.github,
