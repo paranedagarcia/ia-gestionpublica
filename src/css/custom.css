@@ -137,3 +137,10 @@ h3.anchor.anchorTargetStickyNavbar_Vzrq::before {
 a.footer__link-item:hover {
   color: #2e8555 !important;
 }
+
+
+.circle-image {
+  object-fit: cover;   /* Crops and centers the image without stretching */
+  clip-path: circle(45%);
+  float: left;
+}
