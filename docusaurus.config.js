@@ -15,7 +15,7 @@ const config = {
   tagline: 'Análisis de Datos, Estrategia y Gobernanza, Automatización',
   favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
-
+  // marcas notas al pie y permite usar mermaid para diagramas en markdown
   markdown: {
     mermaid: true,
     hooks: {
