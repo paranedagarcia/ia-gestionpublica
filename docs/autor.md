@@ -19,7 +19,7 @@ slug: /autor
       <div class="avatar__name">Patricio Araneda G.</div>
       <small class="avatar__subtitle">
         Magíster en Informática Médica<br />
-        Dirección de Proyectos TI | 
+        Dirección de Proyectos TI
       </small>
     </div>
   </div>
@@ -39,18 +39,18 @@ Con experiencia transversal como CTO/CIO/PO/Program Manager.
 
 ## 🎓 Docencia
 
-- **Universidad de Las Américas**: 
-  
-  Bases de Datos | Analítica de Negocios | Análisis de Datos | Fundamentos de Sistemas Inteligentes | Machine Learning (Magíster en Ciencia de Datos)
-- **Universidad de Talca**: 
+<div class="container text-center">
+<div class="row align-items-end">
+  <div class="col">![](img/udla.jpg)</div>
+  <div class="col">![](img/utalca.png)</div>
+  <div class="col">![](img/ubo.png)</div>
+  <div class="col">![](img/uchile.png)</div>
+</div>
 
-  Tecnologías de la Información | Sistemas y Tecnologías de Información | Taller de Ofimática
-- **Universidad Berbardo O'Higgins**: 
-
-  Inteligencia de Negocios | Ciencia de Datos para los negocios
-- **Universidad de Chile**: 
-
-  Bioestadística, Matemática para Bioestadística (Postgrado)
+<div className="margin-top--md">
+Bases de Datos * Analítica de Negocios * Análisis de Datos * Fundamentos de Sistemas Inteligentes * Machine Learning (Magíster en Ciencia de Datos) * Tecnologías de la Información * Sistemas y Tecnologías de Información * Taller de Ofimática * Inteligencia de Negocios * Ciencia de Datos para los negocios * Bioestadística, Matemática para Bioestadística (Postgrado)
+</div>
+</div>
 
 ## 🎓 Relatoría
 
