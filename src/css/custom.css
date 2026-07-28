@@ -33,3 +33,13 @@
 }
 
 
+/* Forzar ajuste de palabra en todos los bloques de código */
+.prism-code {
+  white-space: pre-wrap !important; /* Permite el salto de línea respetando los espacios */
+  word-break: normal !important;    /* EVITA romper la palabra a la mitad de los caracteres */
+  overflow-wrap: normal !important; /* No fuerza el quiebre de términos continuos */
+}
+
+.prism-code > div {
+  white-space: pre-wrap !important;
+}

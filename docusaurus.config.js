@@ -53,18 +53,20 @@ const config = {
     locales: ['es'],
   },
 
+  // google tag GTM-59ZT9L6B y analytics G-3V2QKLCVQR para patricioaraneda.cl
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          
         },
-        
         theme: {
           customCss: './src/css/custom.css',
+        },
+        gtag: {
+          trackingID: 'G-3V2QKLCVQR',
+          anonymizeIP: true,
         },
       }),
     ],
