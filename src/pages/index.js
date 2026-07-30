@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          Inteligencia Artificial para la Gestión Pública
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Bienvenido a ${siteConfig.title}`}
+      title={`Bienvenido`}
       description="Curso Inteligencia Artificial en Gestión Pública <head />">
       <HomepageHeader />
       <main>
