@@ -1,14 +1,15 @@
 
+🛠️
 
 <center>
 <figure>
-![](img/sql_analisis_g.png)
+![](img)
 <figcaption>Tu subtítulo</figcaption>
 </figure>
 </center>
 
-
-
+estrategia:
+📊 Si lo requieres, podemos diseñar una matriz de priorización en formato Markdown para evaluar el nivel de impacto de un caso de uso específico que tengas en mente para tu institución.
 
 ¿Cómo ayuda el Prompt Engineering a evitar alucinaciones?
 
