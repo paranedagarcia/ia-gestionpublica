@@ -9,6 +9,7 @@ function hasSupportedImageFormat(imagePath) {
   const extension = imagePath.split('.').pop()?.toLowerCase();
   return SUPPORTED_IMAGE_EXTENSIONS.includes(extension);
 }
+
 const FeatureList = [
   {
     title: 'Fundamentos',
